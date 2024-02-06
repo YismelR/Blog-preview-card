@@ -90,3 +90,28 @@ p:nth-child(2){
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+@media (width <= 375px) {
+
+    .layout_content{
+        max-width: 335px;
+        padding: 26px 9px 10px 9px;
+    }
+
+    img{
+        width: 286px;
+    }
+
+    .inner_layout{
+        padding: 9px;
+        font-size: 14px;
+    }
+
+    .avatar_img p{
+        font-size: 14px;
+    }
+    
+    .avatar_img img{
+        width: 34px;
+    }
+}
